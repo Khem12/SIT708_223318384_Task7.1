@@ -24,5 +24,13 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ShowItemsActivity.class);
             startActivity(intent);
         });
+
+        Button btnShowOnMap = findViewById(R.id.btnShowOnMap);
+        btnShowOnMap.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, MapActivity.class);
+            startActivity(intent);
+        });
+
+
     }
 }

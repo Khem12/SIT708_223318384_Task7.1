@@ -9,12 +9,18 @@
         android:id="@+id/createAdvertBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Create New Advert"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="Create New Advert" />
 
     <Button
         android:id="@+id/showItemsBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Show All Lost and Found Items"/>
+
+    <Button
+        android:id="@+id/btnShowOnMap"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="Show on Map" />
 </LinearLayout>

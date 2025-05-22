@@ -1,5 +1,7 @@
 <resources>
+    <string name="AIzaSyBCwwSJP8JOsIUji_o3SAAs_rfPxZMK_WY">YOUR_API_KEY</string>
     <string name="app_name">LostAndFoundApp</string>
+
     <string-array name="post_types">
         <item>Lost</item>
         <item>Found</item>
